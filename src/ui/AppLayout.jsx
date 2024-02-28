@@ -10,9 +10,9 @@ const StyledAppLayout = styled.div`
   height: 100vh;
 
   //Setting to make the sidebar smaller on small devices
-  /* @media (max-width: 768px) {
+  @media (max-width: 768px) {
     grid-template-columns: 10rem 1fr;
-  } */
+  }
 `;
 
 const Main = styled.main`
